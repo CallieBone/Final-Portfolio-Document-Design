@@ -5,8 +5,8 @@ body {
 }
 
 header {
-  background: #222;
-  color: #fff;
+  background: #ff006a;
+  color: #ffb6e3;
   padding: 1rem;
   text-align: center;
 }
@@ -16,21 +16,21 @@ header {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  background: #ddd;
+  background: #a30650;
   padding: 0.5rem;
 }
 
 .tab-btn {
   padding: 0.5rem 1rem;
   border: none;
-  background: #bbb;
+  background: #a94495;
   border-radius: 4px;
   cursor: pointer;
 }
 
 .tab-btn.active {
-  background: #444;
-  color: #fff;
+  background: #ffa3ff;
+  color: #8b1567;
 }
 
 .tab-content {
@@ -76,6 +76,8 @@ header {
   z-index: 2;
 }
 
+
+
 .comparison-inner.show-after .before {
   opacity: 0;
 }
@@ -87,9 +89,46 @@ header {
 .fade-toggle {
   margin-top: 0.5rem;
   padding: 0.4rem 1rem;
-  background: #444;
-  color: #fff;
+  background: #ff84e8;
+  color: #41001b;
   border: none;
   border-radius: 6px;
   cursor: pointer;
+}
+
+.resize-me {
+  width: 100%;
+  max-width: 500px;   /* limit the size */
+  height: auto;
+  display: block;
+  margin: 0 auto;     /* center it */
+}
+
+.two-two-two-images {
+  display: flex;
+  flex-wrap: wrap;      /* allows wrapping if screen is small */
+  gap: 1rem;            /* space between images */
+  justify-content: center;
+}
+
+.two-two-two-images img {
+  width: 18%;           /* 5 images per row */
+  min-width: 120px;     /* prevents them from getting too tiny */
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.normal-img{
+   width: 100%;
+  max-width: 800px
+}
+
+.two-resume{
+  width: 100%;
+  max-width: 800px
+}
+
+.one-resume{
+  width: 100%;
+  max-width: 800px
 }

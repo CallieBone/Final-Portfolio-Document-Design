@@ -17,7 +17,7 @@ document.querySelectorAll(".comparison").forEach(wrapper => {
   toggle.addEventListener("click", () => {
     inner.classList.toggle("show-after");
     toggle.textContent = inner.classList.contains("show-after")
-      ? "Show Before"
-      : "Show After";
+      ? "Show 1st"
+      : "Show 2nd";
   });
 });
