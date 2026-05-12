@@ -132,3 +132,32 @@ header {
   width: 100%;
   max-width: 800px
 }
+
+.resume-final{
+  width: 100%;
+  max-width: 800px
+}
+
+.two-two-two-image {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.two-two-two-image img {
+  width: 45%;      /* increase to 50–60% for larger images */
+  height: auto;
+}
+
+.two-two-images{
+ width: 45%;
+  height: auto;
+}
+
+#design1b {
+  display: none;
+}
+
+#design1 {
+  display: none;
+}
